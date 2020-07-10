@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/slideshow.css">  
+  <script>
+	function myFunction() {
+  var x = document.getElementById("img");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+  </script>
+</head>
+<body>
+
+<div class="wrapper">
+	<a id="img" ><button onclick="myFunction1()">X</button><img src="images/fam.png" alt="fam"></a>
+<div class="grid">
+	<div class="side-nav">
+	<img src="images/logo.png" >
+		<ul>
+			<li><a href="index.html">home</a></li>
+			<li><a href="articles.html">articles</a></li>
+			<li><a href="#">features</a></li>
+			<li><a href="#">gallery</a></li>
+			<li><a href="about.html">about</a></li>
+		</ul>
+	</div>
+	<div class="main-content">
+	<h2 class="trending">Gallery</h2> 	
+	<div class="grid-article">  
+		<div class="article">  	
+		<a href="#"><img class="cover" src="images/squrill.png" alt="squrill"></a>			
+		<a href="#"><img class="cover" src="images/fam.png" alt="fam"></a>		
+		<a href="#"><img class="cover" src="images/lizard.png" alt="lizard"></a>			
+		<a href="#"><img class="cover" src="images/camping1.jpg" alt="camping"></a>	
+		<a href="#"><img class="cover" src="images/butterfly.png" alt="butterfly"></a>		
+		<a href="#"><img class="cover" src="images/hiking.jpg" alt="hiking"></a>
+		</div>
+		<div class="article">  	
+		<a href="#"><img class="cover" src="images/hiking.jpg" alt="hiking"></a>	
+		<a href="#"><img class="cover" src="images/butterfly.png" alt="butterfly"></a>	
+		<a href="#"><img class="cover" src="images/camping1.jpg" alt="camping"></a>		
+		<a href="#"><img class="cover" src="images/lizard.png" alt="lizard"></a>	
+		<a href="#"><img class="cover" src="images/fam.png" alt="fam"></a>			
+		<a href="#"><img class="cover" src="images/squrill.png" alt="squrill"></a>						
+		</div>		
+	</div>	
+	</div>	
+	<footer>
+    <p>Copyright © 2019 All rights reserved | This website is made by Christian Hernandez</p>
+	</footer>
+</div>
+</div>
+
+</body>
+</html>
